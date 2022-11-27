@@ -396,6 +396,8 @@ button#signUp {
     .links, .nav-item {
         text-align: center;
         width: 80%;
+        margin: 1px;
+        
     }
 
     .logo {
@@ -408,11 +410,12 @@ button#signUp {
 
     .about-us {
         width: 80%;
+        margin: 1px;
     }
 
     .about-us p {
         max-width: 90%;
-        text-align: ;
+        margin: 0 4px;
         
     }
 
@@ -437,6 +440,27 @@ button#signUp {
     .metricas-span {
         padding-right: 50px;
         margin-right: 20px;
+    }
+
+    .img-group {
+        max-width: 100%;
+        height: 210px;
+    }
+
+    .area {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .titulo-area {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .informacoes {
+        margin: 0;
+        max-width: 100%;
+        padding-right: 30px;
     }
 
     
