@@ -383,13 +383,15 @@ button#signUp {
 
 /* Responsividade */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 844px) {
     nav, ul {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 90%;
         gap: .9rem;
+        margin-left: 20px;
+        
         
     }
 
@@ -401,7 +403,9 @@ button#signUp {
     }
 
     .logo {
-        width: 50%;
+        width: 35%;
+        height: 40%;
+        
     }
 
     .buttons {
@@ -409,15 +413,18 @@ button#signUp {
     }
 
     .about-us {
-        width: 80%;
-        margin: 1px;
+        width: 90%;
+        align-items: center;
+        margin: 0 30px;
     }
 
-    .about-us p {
+    .about-us p, h1 {
         max-width: 90%;
         margin: 0 4px;
         
     }
+
+    
 
     .metricas-container {
         display: flex;
